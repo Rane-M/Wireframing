@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="heander-content">
+            <div class="logo">My Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="home-content">
+            <div class="left-column">
+                <img src="profile.jpg" alt="My Picture" class="profile-pic">
+                <h2>Showcasing Creative Work</h2>
+                <p>Welcome to my portfolio website, where I exhibit my creative projects. Explore my work and get inspired.</p>
+            </div>
+            <div class="right-column">
+                <video src="home-video.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="section-content">
+          <div class="about-content">
+            <div class="left-column">
+              <h2>Get to Know Me</h2>
+              <p>Hi, I'm a passionate and driven student at the University of the Cordilleras, pursuing a degree in Information Technology. I live in the beautiful city of Baguio, where I draw inspiration from its vibrant culture and scenic landscapes. My journey in IT has been filled with exciting challenges and opportunities to grow, and I'm eager to showcase my skills and projects through this portfolio.</p>
+            </div>
+            <div class="right-column">
+              <img src="school.jpg" alt="University of the Cordilleras" class="school-pic">
+              <p class="school-description">This is the University of the Cordilleras, where I am currently studying Information Technology. It has been a place of learning, growth, and inspiration for me.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="projects" class="project-section">
+        <div class="project parallax" style="background-image: url('project1.png');">
+            <div class="project-content">
+                <h3>TechDoc</h3>
+                <p>This webpage is a structured and interactive learning platform designed to teach users how to use Git, a popular version control system. The webpage typically includes Introduction to Git, Installation Guide, Basic Git Commands and many more.</p>
+            </div>
+        </div>
+
+        <div class="project parallax" style="background-image: url('project2.png');">
+            <div class="project-content">
+                <h3>Tribute</h3>
+                <p>This webpage honors his legacy, showcasing his career, "Mamba Mentality," and philanthropy. It features iconic moments, a gallery, and a tribute section for fans, inspiring others to carry his spirit forward.</p>
+            </div>
+        </div>
+
+        <div class="project parallax" style="background-image: url('project3.png');">
+            <div class="project-content">
+                <h3>ProdLand</h3>
+                <p>This webpage showcases the menu, prices, and ambiance with a warm design. It features mouthwatering dish images, a categorized menu with prices, specials, a gallery, and contact details for easy reservations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea type="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
